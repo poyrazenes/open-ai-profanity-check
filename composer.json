@@ -1,0 +1,30 @@
+{
+    "name": "poyrazenes/open-ai-profanity-check",
+    "description": "Open AI Profanity Check",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["laravel", "openai", "ai", "profanity", "check"],
+    "autoload": {
+        "psr-4": {
+            "Poyrazenes\\OpenAiProfanityCheck\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enes Poyraz",
+            "email": "enes.poyraz@4alabs.io"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Poyrazenes\\OpenAiProfanityCheck\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "laravel/framework": ">=8.0.0"
+    },
+    "minimum-stability": "dev"
+}
